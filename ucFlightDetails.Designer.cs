@@ -79,6 +79,7 @@
             this.roundedPanel1.Name = "roundedPanel1";
             this.roundedPanel1.Size = new System.Drawing.Size(964, 164);
             this.roundedPanel1.TabIndex = 0;
+            this.roundedPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.roundedPanel1_Paint);
             // 
             // lbl_flightname
             // 
