@@ -39,5 +39,10 @@ namespace DBMSProject
            Flights flights = new Flights();
             flights.guna2Panel7.Show();  
         }
+
+        private void roundedPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
